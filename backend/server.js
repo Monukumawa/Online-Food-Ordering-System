@@ -18,7 +18,8 @@ const port = process.env.PORT || 4000;
 //middleware
 app.use(express.json());
 app.use(cors({
-    origin: "https://online-food-ordering-system-3ogb5i4z9-monukumawas-projects.vercel.app"
+    origin: "https://online-food-ordering-system-green.vercel.app",
+    credentials: true
 }));
 
 //db connection 
